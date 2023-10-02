@@ -13,7 +13,7 @@
 
 ## techstack - 
 
-> reactjs, html , css, javascript
+> reactjs, html , css, javascript, react- redux
 
 
 ## schema 
@@ -40,11 +40,43 @@
 
 ```
 
+## package-json
 
+```json
+{
+  "name": "stockarea-assignment",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.3",
+    "react-router-dom": "^6.16.0",
+    "react-scripts": "^5.0.1",
+    "redux": "^4.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
+
+```
 
 ## install instructions
 
 
 ```bash
-$ git clone 
+$ git clone git@github.com:parthkamal/stockarea-assignment.git
+$ cd stockarea-assignment/
+$ npm install
+$ npm run start
+
 ```
+
+
+## demo 
+
+[demo](https://github.com)
